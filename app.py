@@ -29,7 +29,7 @@ PROJECTS=[
     }
 ]
 
-@app.route("/home")
+@app.route("/")
 def hello_world():
     return render_template("home.html", projects=PROJECTS)
 
