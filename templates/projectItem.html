@@ -1,0 +1,14 @@
+<div class="border-bottom row" style="margin-bottom: 16px; padding-bottom: 8px">
+  <div class="col-11">
+    <h4 style="color: rgb(120, 120, 120); margin-bottom: 4px">
+      {{proj['title']}}
+    </h4>
+    <div><b>Technology used:</b> {{proj['technology used']}}</div>
+    {% if 'team size' in proj%}
+    <div><b>Team size: </b> {{proj['team size']}}</div>
+    {% endif %}
+  </div>
+  <div class="col-1">
+    <button type="button" class="btn btn-outline-primary">Details</button>
+  </div>
+</div>
