@@ -3,22 +3,73 @@
 
 <head>
     <title>Sumukha Career Page</title>
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            src: url('/static/fonts/Roboto-Regular.ttf') format('truetype');
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('/static/fonts/Roboto-Bold.ttf') format('truetype');
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: "Roboto";
+            font-weight: normal;
+            color: rgb(50, 50, 50);
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: normal;
+        }
+
+        h3 {
+            text-align: center;
+            color: rgb(100, 100, 100);
+
+        }
+
+        .body-text {
+            font-family: Roboto;
+            color: rgb(80, 80, 80);
+        }
+
+        #container {
+            max-width: 720px;
+            margin: 0 auto 0 auto;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Sumukha Career Page</h1>
-    <h3>こにちは。これらはわたしのプロジェクトです。</h3>
-    <img src="http://127.0.0.1:5000/static/matrix_japanese.png" height="200" , width=100%>
-    <!height=600>
-        <h2>About myself</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eius rem delectus consequatur obcaecati saepe
+    <img id="banner" src="http://192.168.0.111:5000/static/nanakorobiyaoki.jpg" height="500" , width=100%>
+
+    <div id="container">
+        <h3>こにちは。これらはわたしのプロジェクトです。</h3>
+
+        <h2>About Sumukha</h2>
+        <p class="body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eius rem delectus
+            consequatur obcaecati saepe
             fugiat recusandae quis non explicabo ipsam omnis, corrupti praesentium iure exercitationem tenetur debitis,
             aperiam rerum!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos quam illum ad aperiam? Iusto, illo
             quia
             dolore accusantium explicabo magnam odit, minus est obcaecati culpa nulla, fuga aliquam exercitationem.</p>
-        <h2> My projects</h2>
-        <button>test</button>
+        <h2> Project portfolio</h2>
+        <p class="body-text">projects list TODO</p>
+        <div style="text-align: center;">
+            <button>Contact me!</button>
+            <p>Copyright 2023, Sumukha</p>
+        </div>
+
+    </div>
 </body>
 
 </html>
